@@ -1,0 +1,8 @@
+#include <iostream>
+
+using namespace std;
+int add(int x, int y) {
+    cout << "calling add(" << x << ", " << y << ")" << endl;
+
+    return x + y;
+}
